@@ -1,0 +1,27 @@
+@import "src/styles/main";
+.moreVerticalButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  border-radius: $small-button-border-radius;
+  background-color: $white-color;
+  width: px-to-rem(40px);
+  height: px-to-rem(40px);
+
+  .moreVerticalButtonSvg {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+  }
+
+  &:hover {
+    background-color: $breadcumbs-button-color;
+
+    .moreVerticalButtonSvg {
+      fill: $white-color;
+    }
+
+  }
+}
