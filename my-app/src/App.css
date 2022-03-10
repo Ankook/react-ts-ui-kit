@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.ui-kit {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.first-column, .second-column, .third-column  {
+  margin-right: 130px;
+}
+
+h1 {
+  margin-bottom: 64px;
+}
+
+
+.first-column .section:not(:last-of-type), .second-column  .section:not(:last-of-type)   {
+  margin-bottom: 64px;
+}
+
+.first-column .section > *:not(:last-child) ,.third-column .section > *:not(:last-child) {
+  margin-bottom: 13px;
+}
+
+.play-pause-buttons-section > div  {
+  display: flex;
+  flex-direction: row;
+}
+
+.status-section > *:not(:last-of-type), .checkbox-section > *:not(:last-of-type) {
+  margin-bottom: 24px;
+}
+
+.final-status-section > *:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.fourth-column  .section > * {
+  margin-bottom: 117px;
+}
+
+
